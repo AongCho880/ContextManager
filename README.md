@@ -43,8 +43,7 @@ the folder.
 
 Then open any AI in your project and say:
 
-> [!CAUTION]
-> **Read START-HERE.md and follow it.**
+> <span style="color:red"><b>Read START-HERE\.md and follow it.</b></span>
 
 It asks whether you want a **full**, **targeted**, or **minimum** scan — quoting the token cost of
 each, measured from your actual project — waits for your answer, then works one task at a time,
