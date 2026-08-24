@@ -21,6 +21,27 @@ or,
 just copy paste the "ai-context-kit" folder into your project's root directory
 ```
 
+Nothing existing is ever overwritten. You can delete the clone afterwards — the kit is now in your
+project.
+
+**No git?** Download the ZIP and copy the **contents** of `ai-context-kit/` into your project's
+root — not the folder itself. The files have to sit at the root, or no AI will find them:
+
+```
+your-project/                      your-project/
+├── START-HERE.md                  └── ai-context-kit/        ← wrong
+├── AGENTS.md                          ├── START-HERE.md
+├── CLAUDE.md · GEMINI.md              ├── AGENTS.md
+├── .github/                           └── context/
+├── context/
+└── … your own files            Nothing auto-loads from a subfolder, and every
+                                path in START-HERE.md points one level too high.
+```
+
+Leave `README.md` and `install.sh` behind — they are not part of the payload. Already copied the
+whole folder by mistake? Run `./ai-context-kit/install.sh .` from your project root, then delete
+the folder.
+
 Then open any AI in your project and say:
 
 > **Read START-HERE.md and follow it.**
@@ -28,9 +49,6 @@ Then open any AI in your project and say:
 It asks whether you want a **full**, **targeted**, or **minimum** scan — quoting the token cost of
 each, measured from your actual project — waits for your answer, then works one task at a time,
 verifying each one and updating the files before starting the next.
-
-Nothing existing is ever overwritten. Manual install works too: copy `START-HERE.md`, `AGENTS.md`
-and `context/` into the project yourself. That is all the script does.
 
 For an AI with no file access, paste this instead:
 
