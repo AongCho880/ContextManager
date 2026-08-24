@@ -1,0 +1,16 @@
+# AI context kit transient files
+context/.lock
+.ctx_check_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
