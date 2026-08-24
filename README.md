@@ -33,9 +33,9 @@ For an AI with no file access, paste this instead:
 > updates back. Follow the workflow in the first file. At the end, give me the exact updated text
 > for `current-state.md` and `handoff.md`, plus a one-line log entry.
 >
-> \--- START-HERE.md --- `<paste>`
-> \--- context/current-state.md --- `<paste>`
-> \--- context/handoff.md --- `<paste>`
+> \--- START-HERE.md --- <br>`<paste>`<br>
+> \--- context/current-state.md --- <br>`<paste>`<br>
+> \--- context/handoff.md --- <br>`<paste>`
 
 ---
 
