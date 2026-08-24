@@ -18,7 +18,7 @@ git clone https://github.com/AongCho880/ContextManager.git
 or, 
 
 ```
-just copy paste the "ai-context-kit" folder into your project's root directory
+just copy paste the contents of "ai-context-kit" folder into your project's root directory
 ```
 
 Nothing existing is ever overwritten. You can delete the clone afterwards — the kit is now in your
