@@ -17,9 +17,8 @@ git clone https://github.com/AongCho880/ContextManager.git
 ```
 or, 
 
-```
-just copy paste the contents of "ai-context-kit" folder into your project's root directory
-```
+
+> just copy paste the contents of "ai-context-kit" folder into your project's root directory
 
 Nothing existing is ever overwritten. You can delete the clone afterwards — the kit is now in your
 project.
@@ -44,7 +43,7 @@ the folder.
 
 Then open any AI in your project and say:
 
-> **Read START-HERE.md and follow it.**
+> ${\color{red}\text{\textbf{Read START-HERE.md and follow it.}}}$
 
 It asks whether you want a **full**, **targeted**, or **minimum** scan — quoting the token cost of
 each, measured from your actual project — waits for your answer, then works one task at a time,
