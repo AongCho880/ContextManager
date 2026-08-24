@@ -12,8 +12,13 @@ vendor. The project folder is the only thing every AI can see — so that is whe
 ## Quick start
 
 ```bash
-git clone https://github.com/<you>/ContextManager.git
+git clone https://github.com/AongCho880/ContextManager.git
 ./ContextManager/ai-context-kit/install.sh /path/to/your/project
+```
+or, 
+
+```
+just copy paste the "ai-context-kit" folder into your project's root directory
 ```
 
 Then open any AI in your project and say:
